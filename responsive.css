@@ -1,0 +1,222 @@
+@media (max-width:1023px) {
+  
+  [aria-controls="navbardropdown"] {
+    display: block;
+    
+  }
+
+  [aria-expanded='false'] ~ .nav-drop {
+    display: none;
+  }
+
+  [aria-expanded='true'] ~ .nav-drop {
+    display: flex;
+    padding-bottom: 100%;
+  }
+
+  .nav-links {
+    display: flex;
+    font-size: 20px;
+  }
+
+  header {
+    background-position: 0 0;
+    background-size: 100% 100%;
+  }
+
+  .nav-drop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding-top: 40px;
+  }
+
+  header .top-nav {
+    flex-direction: column;
+    align-items: baseline;
+  }
+ 
+  .top-nav button {
+    position: fixed;
+    top:20px;
+    right: 20px;
+    z-index: 501;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+  .drop-down{
+    display: block;
+  }
+
+  div.header-content {
+    margin-top: 0;
+  }
+
+  .header-content {
+    text-align: center;
+    justify-content: center;
+  }
+
+  div.position-logos {
+    grid-row: 2/3;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .benefits-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .soft-for-people {
+    gap:50px;
+    text-align: center;
+    padding-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .front-head {
+    width:80%;
+  }
+
+  .hubspot {
+    grid-template-columns: 1fr;
+  }
+
+  div.hub-col2 {
+    text-align: center;
+  }
+
+  section.best {
+    margin-top:20px
+  }
+
+  .price-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px repeat(2, 1fr);
+  }
+
+  .prg1 {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    text-align: center;
+  }
+  .hireus-grid {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  div.hire-grid-1 {
+    padding-top: 0;
+  }
+
+  .hire-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hireus hr {
+    width:100%
+  }
+
+  .hg1p{
+    width:100%;
+  }
+
+  .hg2 {
+    text-align: center;
+  }
+
+  section.contact {
+    max-width: 800px;
+  }
+
+  .con-grid {
+    grid-template-columns: 250px repeat(2, 1fr);
+  }
+
+  div.con-i1.con {
+    grid-row: 1/3;
+  }
+}
+
+@media (max-width:767px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .header-content{
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+  }
+
+  div.benefits-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .front .hrline {
+    display: none;
+  }
+
+  .front-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .front-flex div {
+    display: flex;
+    height: 48px;
+    width:300px;
+    align-items: center;
+    margin-left: 20px;
+    gap: 40px;
+  }
+
+  div.best-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  div.price-grid {
+    grid-template-columns: 1fr;
+
+  }
+
+  div.prg1.prg {
+    grid-column: 1/2;
+  }
+
+  .hireus-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  div.form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  div.con-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  div.copy-flex {
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+  }
+
+  div.copy-flex div.i2 {
+    margin:0 auto;
+  }
+}
+
+
+
